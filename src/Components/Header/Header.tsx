@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <section className="bg-white py-10 md:mb-10">
+    <section className="bg-white py-10">
       <div className="container max-w-screen-xl mx-auto px-4">
         <nav className="flex-wrap lg:flex items-center">
           <div className="flex items-center mb-10 lg:mb-0">
@@ -14,16 +14,16 @@ const Header = () => {
 
           <ul className="lg:flex flex-col lg:flex-row lg:items-center lg:mx-auto lg:space-x-8 xl:space-x-14">
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
-              <a href="#">Charities</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
-              <a href="#">Membership</a>
+              <a href="/news-and-updates">News</a>
             </li>
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
-              <a href="#">About us</a>
+              <a href="/contact-us">Contact us</a>
             </li>
           </ul>
 
