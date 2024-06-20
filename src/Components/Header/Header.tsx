@@ -17,7 +17,7 @@ const Header = () => {
               <a href="/">Home</a>
             </li>
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
-              <a href="/gallery">Gallery</a>
+              <a href="/projects">Projects</a>
             </li>
             <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 mb-5 lg:mb-0">
               <a href="/news-and-updates">News</a>
