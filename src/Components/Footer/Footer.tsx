@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1D2B]">
+    <footer className="bg-[#143754]">
       <div className="container mx-auto p-0 md:p-8 xl:px-0">
         <div className="mx-auto max-w-7xl px-6 pb-10 pt-16">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -48,13 +48,13 @@ const Footer = () => {
                   <h3 className="text-md font-semibold leading-6 text-white">Our Mission</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <Link href="/programs" className="text-md leading-6 text-gray-300 hover:text-gray-50">Programs</Link>
+                      <Link href="/programs" className="text-md leading-6 text-gray-300 hover:text-orange-50">Programs</Link>
                     </li>
                     <li>
-                      <Link href="/initiatives" className="text-md leading-6 text-gray-300 hover:text-gray-50">Initiatives</Link>
+                      <Link href="/initiatives" className="text-md leading-6 text-gray-300 hover:text-orange-50">Initiatives</Link>
                     </li>
                     <li>
-                      <Link href="/community" className="text-md leading-6 text-gray-300 hover:text-gray-50">Community Impact</Link>
+                      <Link href="/community" className="text-md leading-6 text-gray-300 hover:text-orange-50">Community Impact</Link>
                     </li>
                   </ul>
                 </div>
@@ -62,13 +62,13 @@ const Footer = () => {
                   <h3 className="text-md font-semibold leading-6 text-white">Get Involved</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <Link href="/volunteer" className="text-md leading-6 text-gray-300 hover:text-gray-50">Volunteer</Link>
+                      <Link href="/volunteer" className="text-md leading-6 text-gray-300 hover:text-orange-50">Volunteer</Link>
                     </li>
                     <li>
-                      <Link href="/donate" className="text-md leading-6 text-gray-300 hover:text-gray-50">Donate</Link>
+                      <Link href="/donate" className="text-md leading-6 text-gray-300 hover:text-orange-50">Donate</Link>
                     </li>
                     <li>
-                      <Link href="/fundraise" className="text-md leading-6 text-gray-300 hover:text-gray-50">Fundraise</Link>
+                      <Link href="/fundraise" className="text-md leading-6 text-gray-300 hover:text-orange-50">Fundraise</Link>
                     </li>
                   </ul>
                 </div>
@@ -78,19 +78,19 @@ const Footer = () => {
                   <h3 className="text-md font-semibold leading-6 text-white">Resources</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <Link href="/blog" className="text-md leading-6 text-gray-300 hover:text-gray-50">Blog</Link>
+                      <Link href="/blog" className="text-md leading-6 text-gray-300 hover:text-orange-50">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/news" className="text-md leading-6 text-gray-300 hover:text-gray-50">News</Link>
+                      <Link href="/news" className="text-md leading-6 text-gray-300 hover:text-orange-50">News</Link>
                     </li>
                     <li>
-                      <Link href="/stories" className="text-md leading-6 text-gray-300 hover:text-gray-50">Impact Stories</Link>
+                      <Link href="/stories" className="text-md leading-6 text-gray-300 hover:text-orange-50">Impact Stories</Link>
                     </li>
                     <li>
-                      <Link href="/faq" className="text-md leading-6 text-gray-300 hover:text-gray-50">FAQ</Link>
+                      <Link href="/faq" className="text-md leading-6 text-gray-300 hover:text-orange-50">FAQ</Link>
                     </li>
                     <li>
-                      <Link href="/privacy" className="text-md leading-6 text-gray-300 hover:text-gray-50">Privacy Policy</Link>
+                      <Link href="/privacy" className="text-md leading-6 text-gray-300 hover:text-orange-50">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -98,13 +98,13 @@ const Footer = () => {
                   <h3 className="text-md font-semibold leading-6 text-white">About Us</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     <li>
-                      <Link href="/about" className="text-md leading-6 text-gray-300 hover:text-gray-50">Our Story</Link>
+                      <Link href="/about" className="text-md leading-6 text-gray-300 hover:text-orange-50">Our Story</Link>
                     </li>
                     <li>
-                      <Link href="/team" className="text-md leading-6 text-gray-300 hover:text-gray-50">Our Team</Link>
+                      <Link href="/team" className="text-md leading-6 text-gray-300 hover:text-orange-50">Our Team</Link>
                     </li>
                     <li>
-                      <Link href="/contact" className="text-md leading-6 text-gray-300 hover:text-gray-50">Contact Us</Link>
+                      <Link href="/contact" className="text-md leading-6 text-gray-300 hover:text-orange-50">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
