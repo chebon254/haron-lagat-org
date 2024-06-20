@@ -4,7 +4,7 @@ function projects() {
     return (
         <section className="bg-white py-16">
             <div className="container max-w-screen-xl mx-auto px-4">
-                <h1 className="font-semibold text-gray-900 text-xl md:text-4xl text-center mb-16">Latest to donate</h1>
+                <h1 className="font-semibold text-gray-900 text-xl md:text-4xl text-center mb-16">Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                     <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
                         <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />

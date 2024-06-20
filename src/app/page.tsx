@@ -232,7 +232,7 @@ export default function Home() {
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">New & Updates.</h2>
               <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-                This is your life and it's ending one minute @ a time...</p>
+                This is your life and it&apos;s ending one minute @ a time...</p>
             </div>
             <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
 
@@ -354,7 +354,7 @@ export default function Home() {
         <div className="bg-white px-6 py-12 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Contact Us</h1>
-            <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you'd like to be our critic! Here's a form just for that.</p>
+            <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you&apos;d like to be our critic! Here&apos;s a form just for that.</p>
           </div>
           <form className="mx-auto mt-16 max-w-3xl sm:mt-20">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
