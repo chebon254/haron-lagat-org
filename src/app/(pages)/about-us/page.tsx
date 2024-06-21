@@ -13,7 +13,7 @@ function aboutPage() {
                   size.
                 </p>
               </div>
-              <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+              <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
                 <div className="flex flex-col bg-white/5 p-8">
                   <dt className="text-sm font-semibold leading-6 text-gray-300">words written in 2023</dt>
                   <dd className="order-first text-3xl font-semibold tracking-tight text-white">12 million</dd>
@@ -21,10 +21,6 @@ function aboutPage() {
                 <div className="flex flex-col bg-white/5 p-8">
                   <dt className="text-sm font-semibold leading-6 text-gray-300">episodes uploaded</dt>
                   <dd className="order-first text-3xl font-semibold tracking-tight text-white">10k</dd>
-                </div>
-                <div className="flex flex-col bg-white/5 p-8">
-                  <dt className="text-sm font-semibold leading-6 text-gray-300">hours of media</dt>
-                  <dd className="order-first text-3xl font-semibold tracking-tight text-white">6.6k</dd>
                 </div>
                 <div className="flex flex-col bg-white/5 p-8">
                   <dt className="text-sm font-semibold leading-6 text-gray-300">answers</dt>
@@ -36,7 +32,7 @@ function aboutPage() {
         </div>
       </section>
       <section className="bg-gray-100">
-        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="container max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">We Are Non Profit Organization</h2>
@@ -56,7 +52,7 @@ function aboutPage() {
         </div>
       </section>
       <section className="bg-gray-100">
-        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="mt-12 md:mt-0">
               <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86" alt="About Us Image" className="object-cover rounded-lg shadow-md" />

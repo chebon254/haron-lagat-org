@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#143754] text-white py-8">
+      <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-8 md:mb-0">
@@ -48,35 +48,35 @@ const Footer = () => {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline">Programs</Link></li>
-                  <li><Link href="#" className="hover:underline">Initiatives</Link></li>
-                  <li><Link href="#" className="hover:underline">Community Impact</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Programs</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Initiatives</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Community Impact</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Get Involved</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline">Volunteer</Link></li>
-                  <li><Link href="#" className="hover:underline">Donate</Link></li>
-                  <li><Link href="#" className="hover:underline">Fundraise</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Volunteer</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Donate</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Fundraise</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Resources</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline">Blog</Link></li>
-                  <li><Link href="#" className="hover:underline">News</Link></li>
-                  <li><Link href="#" className="hover:underline">Impact Stories</Link></li>
-                  <li><Link href="#" className="hover:underline">FAQ</Link></li>
-                  <li><Link href="#" className="hover:underline">Privacy Policy</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Blog</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">News</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Impact Stories</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">FAQ</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Privacy Policy</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">About Us</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline">Our Story</Link></li>
-                  <li><Link href="#" className="hover:underline">Our Team</Link></li>
-                  <li><Link href="#" className="hover:underline">Contact Us</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Our Story</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Our Team</Link></li>
+                  <li><Link href="#" className="hover:underline hover:text-orange-500">Contact Us</Link></li>
                 </ul>
               </div>
             </div>
