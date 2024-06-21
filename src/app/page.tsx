@@ -181,10 +181,10 @@ export default function Home() {
       <section className="bg-white py-16">
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col lg:flex-row justify-between space-x-16">
-            <div className="flex justify-center lg:justify-start">
-              <img src="/charity.png" alt="Image" className="h-[600px]" />
+            <div className="flex items-center justify-center">
+              <img src="/uplift.jpg" alt="Image" className="h-[600px]" />
             </div>
-            <div className="mt-16">
+            <div className="mt-4 mx-16">
               <h1 className="font-semibold text-gray-900 text-xl md:text-4xl mb-20">You can help lots of people by <br /> donating</h1>
               <div className="grid grid-cols-1 md:grid-cols-2 md:space-x-20 mb-16">
                 <div className="mb-5 md:mb-0">
