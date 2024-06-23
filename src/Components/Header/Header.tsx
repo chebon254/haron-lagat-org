@@ -20,7 +20,7 @@ const Header = () => {
               <Image src="/haronlagat logo.png" alt="Logo" width={180} height={60} />
             </Link>
             <button className={styles.menuButton} onClick={toggleMenu}>
-              <i className="fa-solid fa-bars"></i>
+              <i className={`fa-solid ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
             </button>
           </div>
 
