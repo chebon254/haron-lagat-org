@@ -16,16 +16,16 @@ const Header = () => {
           </div>
 
           <div className="hidden lg:flex flex-row items-center space-x-8 xl:space-x-14">
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/">Home</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/about-us">About</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/projects">Projects</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/news-and-updates">News</Link>
             </div>
             <div className="font-semibold max-w-max text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
@@ -42,19 +42,19 @@ const Header = () => {
 
         <div className="lg:hidden flex justify-center mt-5">
           <div className="flex flex-col items-center space-y-5">
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/">Home</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/about-us">About</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/projects">Projects</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/news-and-updates">News</Link>
             </div>
-            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300 text-base">
               <Link href="/contact-us">Contact us</Link>
             </div>
             <div>

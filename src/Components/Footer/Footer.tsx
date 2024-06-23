@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="bg-slate-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-8 md:mb-0">
@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="max-w-md pr-16 text-md text-gray-200">
+                <div className="max-w-md pr-16 text-base text-gray-200">
                   Making a difference in the lives of those in need through compassion and dedicated support.
                 </div>
                 <div className="flex space-x-2">
@@ -47,41 +47,41 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
               <div>
                 <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
-                <div className="space-y-2 text-sm">
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Programs</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Initiatives</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Community Impact</Link></div>
+                <div className="space-y-2 text-base">
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Programs</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Initiatives</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Community Impact</Link></div>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Get Involved</h3>
-                <div className="space-y-2 text-sm">
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Volunteer</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Donate</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Fundraise</Link></div>
+                <div className="space-y-2 text-base">
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Volunteer</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Donate</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Fundraise</Link></div>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Resources</h3>
-                <div className="space-y-2 text-sm">
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Blog</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">News</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Impact Stories</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">FAQ</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Privacy Policy</Link></div>
+                <div className="space-y-2 text-base">
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Blog</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">News</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Impact Stories</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">FAQ</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Privacy Policy</Link></div>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">About Us</h3>
-                <div className="space-y-2 text-sm">
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Our Story</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Our Team</Link></div>
-                  <div><Link href="#" className="hover:underline hover:text-orange-500">Contact Us</Link></div>
+                <div className="space-y-2 text-base">
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Our Story</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Our Team</Link></div>
+                  <div><Link href="#" className="hover:text-orange-500 py-2">Contact Us</Link></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="text-center mt-8 text-sm">
+          <div className="text-center pt-8 text-base">
             &copy; 2024 Charity Organization. All rights reserved.
           </div>
         </div>
