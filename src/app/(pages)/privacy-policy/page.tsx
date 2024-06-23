@@ -7,7 +7,7 @@ function PrivacyPolicy() {
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900 mb-6">Privacy Policy</h1>
 
           <p className="mt-3 text-lg text-gray-600 my-1">
-            [Your Charity Name] (hereinafter referred to as "we", "us", or "[Your Charity Name]") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.yourcharitywebsite.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+            Haron Lagat Organization (hereinafter referred to as &quot;we&quot;, &quot;us&quot;, or &quot;Haron Lagat&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.yourcharitywebsite.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the &quot;Site&quot;). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
           </p>
 
           <h2 className="text-xl md:text-xl mt-6 font-bold tracking-tight text-gray-900">1. Information We Collect</h2>

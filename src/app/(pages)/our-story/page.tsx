@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 function our_story() {
     return (
@@ -12,7 +12,7 @@ function our_story() {
                     </div>
                     <div>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            At our core, we believe that every individual deserves the opportunity to flourish, regardless of how they process and learn. Sadly, this isn't the reality for many of the 70 million people in the United States—approximately 1 in 5—who face learning and thinking differences.
+                            At our core, we believe that every individual deserves the opportunity to flourish, regardless of how they process and learn. Sadly, this isn&quot;t the reality for many of the 70 million people in the United States—approximately 1 in 5—who face learning and thinking differences.
                         </p>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
                             Our journey began over 30 years ago when we discovered that our son, Max, had a learning and thinking difference. Through personal experience, we encountered the challenges and uncertainties that so many others in similar situations face. This journey is ongoing and lifelong.
@@ -24,16 +24,16 @@ function our_story() {
                             These insights inspired us to create Understood—an initiative dedicated to offering parents and families worldwide the resources, expertise, and community that were once scarce.
                         </p>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            Admittedly, we embarked on this journey uncertain of its destination. Yet, we understood that everyone knows someone affected by a learning and thinking difference—our children, siblings, friends, neighbors, and colleagues. If we didn't act, these individuals could face increased risks such as bullying, academic struggles, or unemployment, hindering their ability to thrive.
+                            Admittedly, we embarked on this journey uncertain of its destination. Yet, we understood that everyone knows someone affected by a learning and thinking difference—our children, siblings, friends, neighbors, and colleagues. If we didn&quot;t act, these individuals could face increased risks such as bullying, academic struggles, or unemployment, hindering their ability to thrive.
                         </p>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
                             Your visit to our site today signals your concern for learning and thinking differences. Perhaps you seek understanding to support others. Both understanding and taking action are crucial steps toward creating a more inclusive world for those with diverse learning styles—offering them solace and recognition.
                         </p>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            As parents, we've witnessed firsthand that when individuals with learning and thinking differences thrive, those around them thrive as well. This ripple effect contributes to a better world for all.
+                            As parents, we&quot;ve witnessed firsthand that when individuals with learning and thinking differences thrive, those around them thrive as well. This ripple effect contributes to a better world for all.
                         </p>
                         <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            Welcome to Understood. We're delighted to have you join us on this meaningful journey.
+                            Welcome to Understood. We&quot;re delighted to have you join us on this meaningful journey.
                         </p>
                     </div>
                 </div>
