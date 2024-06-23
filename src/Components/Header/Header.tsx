@@ -15,23 +15,23 @@ const Header = () => {
             </button>
           </div>
 
-          <ul className="hidden lg:flex flex-row items-center space-x-8 xl:space-x-14">
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+          <div className="hidden lg:flex flex-row items-center space-x-8 xl:space-x-14">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/">Home</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/about-us">About</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/projects">Projects</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/news-and-updates">News</Link>
-            </li>
-            <li className="font-semibold max-w-max text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold max-w-max text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/contact-us">Contact us</Link>
-            </li>
-          </ul>
+            </div>
+          </div>
 
           <div className="hidden lg:flex">
             <Link href="#" className="px-6 py-4 border-2 border-orange-500 text-orange-500 font-semibold text-lg rounded-xl hover:bg-orange-700 hover:text-white transition ease-linear duration-500">
@@ -41,28 +41,28 @@ const Header = () => {
         </nav>
 
         <div className="lg:hidden flex justify-center mt-5">
-          <ul className="flex flex-col items-center space-y-5">
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+          <div className="flex flex-col items-center space-y-5">
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/">Home</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/about-us">About</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/projects">Projects</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/news-and-updates">News</Link>
-            </li>
-            <li className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
+            </div>
+            <div className="font-semibold text-black-600 hover:text-orange-400 transition ease-in-out duration-300">
               <Link href="/contact-us">Contact us</Link>
-            </li>
-            <li>
+            </div>
+            <div>
               <Link href="#" className="px-6 py-4 border-2 border-orange-500 text-orange-500 font-semibold text-lg rounded-xl hover:bg-orange-700 hover:text-white transition ease-linear duration-500">
                 Donate
               </Link>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

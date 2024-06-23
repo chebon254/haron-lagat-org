@@ -47,37 +47,37 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
               <div>
                 <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Programs</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Initiatives</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Community Impact</Link></li>
-                </ul>
+                <div className="space-y-2 text-sm">
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Programs</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Initiatives</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Community Impact</Link></div>
+                </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Get Involved</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Volunteer</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Donate</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Fundraise</Link></li>
-                </ul>
+                <div className="space-y-2 text-sm">
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Volunteer</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Donate</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Fundraise</Link></div>
+                </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Resources</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Blog</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">News</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Impact Stories</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">FAQ</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Privacy Policy</Link></li>
-                </ul>
+                <div className="space-y-2 text-sm">
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Blog</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">News</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Impact Stories</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">FAQ</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Privacy Policy</Link></div>
+                </div>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">About Us</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Our Story</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Our Team</Link></li>
-                  <li><Link href="#" className="hover:underline hover:text-orange-500">Contact Us</Link></li>
-                </ul>
+                <div className="space-y-2 text-sm">
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Our Story</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Our Team</Link></div>
+                  <div><Link href="#" className="hover:underline hover:text-orange-500">Contact Us</Link></div>
+                </div>
               </div>
             </div>
           </div>
