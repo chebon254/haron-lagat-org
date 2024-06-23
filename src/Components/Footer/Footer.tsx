@@ -51,9 +51,7 @@ const Footer = () => {
           <div>
             <h3>Resources</h3>
             <ul>
-              <li><Link href="/blog">Blog</Link></li>
-              <li><Link href="/news">News</Link></li>
-              <li><Link href="/impact-stories">Impact Stories</Link></li>
+              <li><Link href="/news-and-updates">News</Link></li>
               <li><Link href="/faq">FAQ</Link></li>
               <li><Link href="/privacy-policy">Privacy Policy</Link></li>
             </ul>

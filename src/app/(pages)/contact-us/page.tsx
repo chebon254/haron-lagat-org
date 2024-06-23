@@ -9,9 +9,9 @@ function contactUs() {
           <div className="text-center">
             <p className="font-medium text-orange-500">Contact us</p>
 
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">Get in touch</h1>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Get in touch</h1>
 
-            <p className="mt-3 text-gray-500">Our friendly team is always here to chat.</p>
+            <p className="mt-3 text-lg text-gray-600">Our friendly team is always here to chat.</p>
           </div>
 
           <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
@@ -23,7 +23,7 @@ function contactUs() {
               </span>
 
               <h2 className="mt-4 text-lg font-medium text-gray-800">Email</h2>
-              <p className="mt-2 text-gray-500">Our friendly team is here to help.</p>
+              <p className="mt-2 text-gray-500 text-base">Our friendly team is here to help.</p>
               <p className="mt-2 text-orange-500">hello@merakiui.com</p>
             </div>
 
@@ -36,7 +36,7 @@ function contactUs() {
               </span>
 
               <h2 className="mt-4 text-lg font-medium text-gray-800">Office</h2>
-              <p className="mt-2 text-gray-500">Come say hello at our office HQ.</p>
+              <p className="mt-2 text-gray-500 text-base">Come say hello at our office HQ.</p>
               <p className="mt-2 text-orange-500">100 Smith Street Collingwood VIC 3066 AU</p>
             </div>
 
@@ -48,7 +48,7 @@ function contactUs() {
               </span>
 
               <h2 className="mt-4 text-lg font-medium text-gray-800">Phone</h2>
-              <p className="mt-2 text-gray-500">Mon-Fri from 8am to 5pm.</p>
+              <p className="mt-2 text-gray-500 text-base">Mon-Fri from 8am to 5pm.</p>
               <p className="mt-2 text-orange-500">+1 (555) 000-0000</p>
             </div>
           </div>
@@ -57,44 +57,44 @@ function contactUs() {
       {/* <!-- Contact --> */}
       <section>
         <div className="bg-white px-6 py-12 sm:py-24 lg:px-8">
-          <div className="text-center">
-            <p className="mt-3 text-gray-500">Our friendly team is always here to chat.</p>
+          <div className="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
+            <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you&apos;d like to be our critic! Here&apos;s a form just for that.</p>
           </div>
           <form className="mx-auto mt-16 max-w-3xl sm:mt-20">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
-                <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+                <label htmlFor="first-name" className="block text-base font-semibold leading-6 text-gray-900">First name</label>
                 <div className="mt-2.5">
-                  <input required type="text" name="first-name" id="first-name" autoComplete="given-name" placeholder="Your First Name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6" />
+                  <input required type="text" name="first-name" id="first-name" autoComplete="given-name" placeholder="Your First Name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6" />
                 </div>
               </div>
               <div>
-                <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+                <label htmlFor="last-name" className="block text-base font-semibold leading-6 text-gray-900">Last name</label>
                 <div className="mt-2.5">
-                  <input required type="text" name="last-name" id="last-name" autoComplete="family-name" placeholder="Your Last Name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6" />
+                  <input required type="text" name="last-name" id="last-name" autoComplete="family-name" placeholder="Your Last Name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                <label htmlFor="email" className="block text-base font-semibold leading-6 text-gray-900">Email</label>
                 <div className="mt-2.5">
-                  <input required type="email" name="email" id="email" autoComplete="email" placeholder="Your Email Address" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6/" />
+                  <input required type="email" name="email" id="email" autoComplete="email" placeholder="Your Email Address" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="phone" className="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
+                <label htmlFor="phone" className="block text-base font-semibold leading-6 text-gray-900">Phone number</label>
                 <div className="mt-2.5">
-                  <input required type="tel" name="phone" id="phone" autoComplete="tel" placeholder="Your Phone Number" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6" />
+                  <input required type="tel" name="phone" id="phone" autoComplete="tel" placeholder="Your Phone Number" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+                <label htmlFor="message" className="block text-base font-semibold leading-6 text-gray-900">Message</label>
                 <div className="mt-2.5">
-                  <textarea name="message" id="message" rows={4} placeholder="Share your thoughts..." className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6"></textarea>
+                  <textarea name="message" id="message" rows={4} placeholder="Share your thoughts..." className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"></textarea>
                 </div>
               </div>
             </div>
             <div className="mt-10">
-              <button type="submit" className="bg-orange-600 text-white rounded-sm py-2 w-full block">Submit →</button>
+              <button type="submit" className="bg-orange-600 text-white rounded-sm py-2 text-base w-full block">Submit →</button>
             </div>
           </form>
         </div>
@@ -103,22 +103,20 @@ function contactUs() {
         <div className="bg-white">
           <div className="mx-auto py-16 sm:px-6 lg:px-8">
             <div className="relative isolate overflow-hidden px-6 py-24 text-center sm:rounded-3xl sm:px-16">
-              <h2 className="font-nudge-extrabold mx-auto max-w-2xl text-3xl font-bold uppercase tracking-wide sm:text-4xl">Join our
-                community now</h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">Experience the benefits of our community. No
-                obligations, just join and explore.</p>
+              <h2 className="font-nudge-extrabold mx-auto max-w-2xl text-3xl font-bold uppercase tracking-wide sm:text-4xl">Join our Community Now</h2>
+              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">Be a part of our community and help us bring hope and support to those in need. Your involvement makes a difference.</p>
               <div className="isolate mt-8 flex items-center justify-center -space-x-2 overflow-hidden">
-                <img className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/34.jpg" alt="" />
-                <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt="" />
-                <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt="" />
-                <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" />
+                <img className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/34.jpg" alt=""/>
+                <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt=""/>
+                <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt=""/>
+                <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt=""/>
                 <span className="!ml-2 font-bold italic text-orange-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
                 <button type="button" className="text-md relative inline-flex items-center gap-x-2 rounded-lg bg-orange-600 px-6 py-4 font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">
                   <span className="absolute -top-5 left-0 w-full text-left text-xs italic text-orange-600">No Obligations</span>Join Now
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="-mr-0.5 h-5 w-5">
-                    <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                    <path fillRule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clipRule="evenodd"></path>
                   </svg>
                 </button>
               </div>
