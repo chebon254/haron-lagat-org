@@ -8,6 +8,7 @@ function aboutPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:max-w-none">
               <div className="text-center space-y-4">
+                <p className="font-medium text-orange-500">About</p>
                 <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">We Work Together</h2>
                 <p className="text-lg leading-8 text-gray-300">Join us in making a difference by supporting various charitable causes around the world.</p>
               </div>

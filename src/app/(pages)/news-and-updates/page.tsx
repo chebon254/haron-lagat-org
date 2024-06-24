@@ -3,7 +3,7 @@ function newsUpdates() {
     <>
       <section className="bg-white">
         <div className="container px-6 pt-12 pb-2 mx-auto">
-          <div className="text-center mb-8">
+          <div className="text-center mb-8 mt-16">
             <p className="font-medium text-orange-500">Articles</p>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">News & Updates</h1>
             <p className="mt-3 text-lg text-gray-600">Stay informed about our latest efforts and accomplishments in supporting those in need.</p>

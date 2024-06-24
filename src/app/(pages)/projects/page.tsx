@@ -5,7 +5,7 @@ function projects() {
         <>
             <section className="bg-white py-16">
                 <div className="container max-w-screen-xl mx-auto px-4">
-                    <div className="text-center mb-8">
+                    <div className="text-center mb-8 mt-16">
                         <p className="font-medium text-orange-500">Projects</p>
 
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Latest to donate</h1>

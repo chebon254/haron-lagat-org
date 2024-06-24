@@ -6,7 +6,7 @@ function contactUs() {
 
       <section className="bg-white">
         <div className="container px-6 py-12 mx-auto">
-          <div className="text-center">
+          <div className="text-center mt-16">
             <p className="font-medium text-orange-500">Contact us</p>
 
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Get in touch</h1>
