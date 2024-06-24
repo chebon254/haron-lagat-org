@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import styles from './Footer.module.css';
+import Logo from "../../../public/logo.png"
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2 text-2xl font-medium">
                 <span>
                   <Image
-                    src="/haronlagat logo.png"
+                    src={Logo}
                     alt="AI Logo"
                     width="180"
                     height="64"
@@ -27,8 +28,8 @@ const Footer = () => {
           <p>Making a difference in the lives of those in need through compassion and dedicated support.</p>
           <div className={styles.socialMedia}>
             <Link href="">X</Link>
-            <Link href="">F</Link>
-            <Link href="">In</Link>
+            <Link href="">FaceBook</Link>
+            <Link href="">Instagram</Link>
           </div>
         </div>
         <div className={styles.links}>
@@ -67,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyRight}>
-        <p>© 2024 Charity Organization. All rights reserved.</p>
+        <p>© 2024 Haron Lagat Org. All rights reserved.</p>
       </div>
     </footer>
   );
