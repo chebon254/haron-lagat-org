@@ -35,7 +35,6 @@ const Footer = () => {
           <div>
             <h3>Our Mission</h3>
             <ul>
-              <li><Link href="/programs">Programs</Link></li>
               <li><Link href="/initiatives">Initiatives</Link></li>
               <li><Link href="/community-impact">Community Impact</Link></li>
             </ul>
