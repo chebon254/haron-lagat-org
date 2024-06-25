@@ -12,156 +12,60 @@ function projects() {
 
                         <p className="mt-3 text-lg text-gray-600">Current project your can jump in on.</p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Help flood victims in <br /> Indonesia</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Support education in Africa</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Help flood victims in Indonesia by <br /> donating sincerely, regardless of the...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$25000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$21000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-56 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">84%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects focus on improving access to education for children in underserved regions. We believe that education is a fundamental right and a key to breaking the cycle of poverty.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Through our charity oriented projects, we provide resources, training, and support to ensure that every child has the opportunity to learn and grow in a safe and nurturing environment.</p>
                         </div>
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Donation for COVID-19 in <br /> Indonesia</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Feed the hungry in India</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Donation for COVID-19 in Indonesia by <br /> donating sincerely, regardless of the...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$24000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$19000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-52 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">80%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects are dedicated to combating hunger and malnutrition. We work tirelessly to provide nutritious meals to those in need, ensuring that no one goes to bed hungry.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">By supporting our charity oriented projects, you help us deliver food and hope to vulnerable populations. Together, we can make a difference in the fight against hunger.</p>
                         </div>
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Help homeless cat to find <br /> home</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Provide clean water in Latin America</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Help homeless cat and the oether <br /> animals by donating sincerely regar...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$15000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$13000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-60 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">86%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects address the critical need for clean and safe drinking water. We implement sustainable solutions to ensure that communities have access to this basic necessity.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Support our charity oriented projects to help us build wells, install purification systems, and educate communities on water conservation and hygiene practices.</p>
                         </div>
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Help flood victims in <br /> Indonesia</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Aid refugees in Europe</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Help flood victims in Indonesia by <br /> donating sincerely, regardless of the...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$25000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$21000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-56 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">84%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects are committed to supporting refugees fleeing conflict and persecution. We provide essential services such as shelter, food, and medical care to help them rebuild their lives.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">By contributing to our charity oriented projects, you can help us offer hope and assistance to those who have lost everything. Together, we can create a brighter future for refugees.</p>
                         </div>
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Donation for COVID-19 in <br /> Indonesia</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Protect wildlife in Australia</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Donation for COVID-19 in Indonesia by <br /> donating sincerely, regardless of the...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$24000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$19000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-52 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">80%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects focus on the conservation of wildlife and their habitats. We work to protect endangered species and promote biodiversity through various initiatives.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Join our charity oriented projects to support our efforts in safeguarding the natural world. Your contribution helps us preserve the beauty and diversity of our planet for future generations.</p>
                         </div>
+
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
+                            <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
 
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Help homeless cat to find <br /> home</h4>
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Build homes for the homeless in USA</h4>
 
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Help homeless cat and the oether <br /> animals by donating sincerely regar...</p>
-
-                            <div className="flex items-center justify-between mb-8">
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Goals : <span className="font-semibold text-gray-900 text-md md:text-lg">$15000</span></h6>
-
-                                <h6 className="font-light text-gray-800 text-sm md:text-lg">Raised : <span className="font-semibold text-gray-900 text-md md:text-lg">$13000</span></h6>
-                            </div>
-
-                            <div className="hidden md:block lg:flex items-center justify-between mb-8">
-                                <div>
-                                    <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
-
-                                    <div className="w-60 h-2 bg-red-500 rounded-lg relative"></div>
-                                </div>
-
-                                <p className="font-light text-gray-900 text-md">86%</p>
-                            </div>
-
-                            <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our charity oriented projects aim to provide safe and stable housing for the homeless. We believe that everyone deserves a place to call home and work towards making this a reality for all.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Support our charity oriented projects to help us construct shelters and provide essential services to those without homes. Together, we can build a community where everyone has a chance to thrive.</p>
                         </div>
                     </div>
                 </div>

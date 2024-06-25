@@ -174,9 +174,6 @@ export default function Home() {
               <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <button className="px-7 py-4 font-semibold bg-red-500 text-white rounded-2xl hover:bg-range-300 hover:text-white transition ease-in-out duration-500">More Causes</button>
-          </div>
         </div>
       </section>
       {/* <!-- Donate --> */}
