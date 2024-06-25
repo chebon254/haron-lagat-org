@@ -7,14 +7,14 @@ export default function Home() {
       <section className="bg-white py-10 md:mb-10">
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col lg:flex-row justify-between space-x-20">
-            <div className="flex items-center justify-start text-center lg:text-left mt-40 lg:mt-0 lg:w-2/5">
+            <div className="flex items-center justify-start text-center lg:text-left mt-40 lg:mt-0 lg:w-2/4">
               <div>
                 <h1 className="font-black text-gray-900 text-3xl md:text-6xl leading-normal mb-6">Charity for the <br /> world better life</h1>
                 <p className="font-light text-gray-900 text-lg md:text-lg leading-normal mb-12">We provide a trusted donation channel for people worldwide to support individuals and organizations.</p>
                 <button className="px-6 py-4 mb-1 bg-red-500 text-white font-semibold text-lg rounded-xl hover:bg-red-700 transition ease-in-out duration-500">Get started</button>
               </div>
             </div>
-            <div className="flex items-center w-11/12 justify-center lg:w-3/5 m-0 lg:m-4">
+            <div className="flex items-center w-11/12 justify-center lg:w-2/4 m-0 lg:m-4">
               <img src="/charity.jpg" alt="Image" className="rounded-2xl w-75 mx-auto lg:m-0" />
             </div>
           </div>
