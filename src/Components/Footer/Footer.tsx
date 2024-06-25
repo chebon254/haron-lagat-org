@@ -27,7 +27,9 @@ const Footer = () => {
           <p>Making a difference in the lives of those in need through compassion and dedicated support.</p>
           <div className={styles.socialMedia}>
             <Link href="https://web.facebook.com"><i className="fa-brands text-xl fa-facebook"></i></Link>
-            <Link href="https://x.com/home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill='#ffffff'><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></Link>
+            <Link href="https://x.com/home">
+              <Image src="/image/x-twitter.svg" alt="" width={18} height={18}/>
+            </Link>
             <Link href="www.instagram.com"><i className="fa-brands text-xl fa-instagram"></i></Link>
           </div>
         </div>
