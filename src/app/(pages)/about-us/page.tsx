@@ -8,7 +8,7 @@ function aboutPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:max-w-none">
               <div className="text-center space-y-4">
-                <p className="font-medium text-white">About</p>
+                <p className=" text-white">About</p>
                 <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">We Work Together</h2>
                 <p className="text-lg leading-8 text-gray-300">Join us in making a difference by supporting various charitable causes around the world.</p>
               </div>
@@ -38,7 +38,7 @@ function aboutPage() {
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">We Are a Non-Profit Organization</h2>
               <p className="mt-4 text-gray-600 text-lg">Our mission is to provide essential resources and support to underprivileged communities. From educational programs to healthcare services, we are dedicated to improving lives.</p>
               <div className="mt-8">
-                <a href="#" className="text-red-500 hover:text-red-600 font-semibold font-medium">Learn more about us
+                <a href="#" className="text-red-500 hover:text-red-600 font-semibold ">Learn more about us
                   <span className="ml-2">&#8594;</span></a>
               </div>
             </div>
@@ -59,7 +59,7 @@ function aboutPage() {
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">We Are a Strong Team</h2>
               <p className="mt-4 text-gray-600 text-lg">Our team is composed of dedicated individuals who work tirelessly to achieve our mission. Together, we strive to create a positive impact and bring about meaningful change.</p>
               <div className="mt-8">
-                <a href="#" className="text-red-500 hover:text-red-600 font-semibold font-medium">Learn more about us
+                <a href="#" className="text-red-500 hover:text-red-600 font-semibold ">Learn more about us
                   <span className="ml-2">&#8594;</span></a>
               </div>
             </div>
