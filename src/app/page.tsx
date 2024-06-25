@@ -7,21 +7,21 @@ export default function Home() {
       <section className="bg-white py-10 md:mb-10">
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col lg:flex-row justify-between space-x-20">
-            <div className="flex items-center justify-start text-center lg:text-left mt-40 lg:mt-0 lg:w-50">
+            <div className="flex items-center justify-start text-center lg:text-left mt-40 lg:mt-0 lg:w-2/5">
               <div>
                 <h1 className="font-black text-gray-900 text-3xl md:text-6xl leading-normal mb-6">Charity for the <br /> world better life</h1>
                 <p className="font-light text-gray-900 text-lg md:text-lg leading-normal mb-12">We provide a trusted donation channel for people worldwide to support individuals and organizations.</p>
-                <button className="px-6 py-4 bg-orange-500 text-white font-semibold text-lg rounded-xl hover:bg-orange-700 transition ease-in-out duration-500">Get started</button>
+                <button className="px-6 py-4 mb-1 bg-red-500 text-white font-semibold text-lg rounded-xl hover:bg-red-700 transition ease-in-out duration-500">Get started</button>
               </div>
             </div>
-            <div className="flex items-center justify-center lg:w-50 m-4">
-              <img src="/charity.jpg" alt="Image" className="rounded-2xl w-75" />
+            <div className="flex items-center w-11/12 justify-center lg:w-3/5 m-0 lg:m-4">
+              <img src="/charity.jpg" alt="Image" className="rounded-2xl w-75 mx-auto lg:m-0" />
             </div>
           </div>
         </div>
       </section>
       {/* <!-- feature section --> */}
-      <section className="bg-white py-16 md:mt-10">
+      <section className="bg-zinc-100 py-16 md:mt-10">
 
         <div className="container max-w-screen-xl mx-auto px-4">
 
@@ -32,8 +32,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-blue-700 rounded-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fc9436" d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" /></svg>
+                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-red-700 rounded-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#e03d3d" d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" /></svg>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
               <p className="font-light text-gray-900 text-lg md:text-lg mb-6">Donations and distributions can be seen transparently</p>
 
               <div className="flex justify-center">
-                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-orange-500 hover:text-white transition ease-linear duration-500">
+                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-red-500 hover:text-white transition ease-linear duration-500">
                   Learn more
                   <i className="fa-solid text-xl fa-chevron-right"></i>
                 </Link>
@@ -51,8 +51,8 @@ export default function Home() {
 
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-blue-700 rounded-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#fc9436" d="M312 24V34.5c6.4 1.2 12.6 2.7 18.2 4.2c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17c-10.9-2.9-21.1-4.9-30.2-5c-7.3-.1-14.7 1.7-19.4 4.4c-2.1 1.3-3.1 2.4-3.5 3c-.3 .5-.7 1.2-.7 2.8c0 .3 0 .5 0 .6c.2 .2 .9 1.2 3.3 2.6c5.8 3.5 14.4 6.2 27.4 10.1l.9 .3c11.1 3.3 25.9 7.8 37.9 15.3c13.7 8.6 26.1 22.9 26.4 44.9c.3 22.5-11.4 38.9-26.7 48.5c-6.7 4.1-13.9 7-21.3 8.8V232c0 13.3-10.7 24-24 24s-24-10.7-24-24V220.6c-9.5-2.3-18.2-5.3-25.6-7.8c-2.1-.7-4.1-1.4-6-2c-12.6-4.2-19.4-17.8-15.2-30.4s17.8-19.4 30.4-15.2c2.6 .9 5 1.7 7.3 2.5c13.6 4.6 23.4 7.9 33.9 8.3c8 .3 15.1-1.6 19.2-4.1c1.9-1.2 2.8-2.2 3.2-2.9c.4-.6 .9-1.8 .8-4.1l0-.2c0-1 0-2.1-4-4.6c-5.7-3.6-14.3-6.4-27.1-10.3l-1.9-.6c-10.8-3.2-25-7.5-36.4-14.4c-13.5-8.1-26.5-22-26.6-44.1c-.1-22.9 12.9-38.6 27.7-47.4c6.4-3.8 13.3-6.4 20.2-8.2V24c0-13.3 10.7-24 24-24s24 10.7 24 24zM568.2 336.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 485.5c-23.4 17.2-51.6 26.5-80.7 26.5H192 32c-17.7 0-32-14.3-32-32V416c0-17.7 14.3-32 32-32H68.8l44.9-36c22.7-18.2 50.9-28 80-28H272h16 64c17.7 0 32 14.3 32 32s-14.3 32-32 32H288 272c-8.8 0-16 7.2-16 16s7.2 16 16 16H392.6l119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 384l0 0-.9 0c.3 0 .6 0 .9 0z" /></svg>
+                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-red-700 rounded-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#e03d3d" d="M312 24V34.5c6.4 1.2 12.6 2.7 18.2 4.2c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17c-10.9-2.9-21.1-4.9-30.2-5c-7.3-.1-14.7 1.7-19.4 4.4c-2.1 1.3-3.1 2.4-3.5 3c-.3 .5-.7 1.2-.7 2.8c0 .3 0 .5 0 .6c.2 .2 .9 1.2 3.3 2.6c5.8 3.5 14.4 6.2 27.4 10.1l.9 .3c11.1 3.3 25.9 7.8 37.9 15.3c13.7 8.6 26.1 22.9 26.4 44.9c.3 22.5-11.4 38.9-26.7 48.5c-6.7 4.1-13.9 7-21.3 8.8V232c0 13.3-10.7 24-24 24s-24-10.7-24-24V220.6c-9.5-2.3-18.2-5.3-25.6-7.8c-2.1-.7-4.1-1.4-6-2c-12.6-4.2-19.4-17.8-15.2-30.4s17.8-19.4 30.4-15.2c2.6 .9 5 1.7 7.3 2.5c13.6 4.6 23.4 7.9 33.9 8.3c8 .3 15.1-1.6 19.2-4.1c1.9-1.2 2.8-2.2 3.2-2.9c.4-.6 .9-1.8 .8-4.1l0-.2c0-1 0-2.1-4-4.6c-5.7-3.6-14.3-6.4-27.1-10.3l-1.9-.6c-10.8-3.2-25-7.5-36.4-14.4c-13.5-8.1-26.5-22-26.6-44.1c-.1-22.9 12.9-38.6 27.7-47.4c6.4-3.8 13.3-6.4 20.2-8.2V24c0-13.3 10.7-24 24-24s24 10.7 24 24zM568.2 336.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 485.5c-23.4 17.2-51.6 26.5-80.7 26.5H192 32c-17.7 0-32-14.3-32-32V416c0-17.7 14.3-32 32-32H68.8l44.9-36c22.7-18.2 50.9-28 80-28H272h16 64c17.7 0 32 14.3 32 32s-14.3 32-32 32H288 272c-8.8 0-16 7.2-16 16s7.2 16 16 16H392.6l119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 384l0 0-.9 0c.3 0 .6 0 .9 0z" /></svg>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
               <p className="font-light text-gray-900 text-lg md:text-lg mb-6">The simple and quickest way to make a donation</p>
 
               <div className="flex justify-center">
-                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-orange-500 hover:text-white transition ease-linear duration-500">
+                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-red-500 hover:text-white transition ease-linear duration-500">
                   Learn more
                   <i className="fa-solid text-xl fa-chevron-right"></i>
                 </Link>
@@ -70,8 +70,8 @@ export default function Home() {
 
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-blue-700 rounded-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fc9436" d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z" /></svg>
+                <div className="w-10 py-6 flex justify-center bg-opacity-30 text-red-700 rounded-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#e03d3d" d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z" /></svg>
                 </div>
               </div>
 
@@ -80,7 +80,7 @@ export default function Home() {
               <p className="font-light text-gray-900 text-lg md:text-lg mb-6">Reports related to donations and distribution are updated directly</p>
 
               <div className="flex justify-center">
-                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-orange-500 hover:text-white transition ease-linear duration-500">
+                <Link href="#" className="flex items-center gap-5 px-6 py-4 font-semibold text-info text-lg rounded-xl hover:bg-red-500 hover:text-white transition ease-linear duration-500">
                   Learn more
                   <i className="fa-solid text-xl fa-chevron-right"></i>
                 </Link>
@@ -113,15 +113,15 @@ export default function Home() {
 
               <div className="hidden md:block lg:flex items-center justify-between mb-8">
                 <div>
-                  <div className="w-72 h-2 bg-orange-500 opacity-10 rounded-lg absolute "></div>
+                  <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
 
-                  <div className="w-56 h-2 bg-orange-500 rounded-lg relative"></div>
+                  <div className="w-56 h-2 bg-red-500 rounded-lg relative"></div>
                 </div>
 
                 <p className="font-light text-gray-900 text-md">84%</p>
               </div>
 
-              <button className="w-full py-4 bg-info font-semibold text-orange-500 hover:text-white text-lg rounded-xl hover:bg-orange-500 transition ease-in-out duration-500">Donate</button>
+              <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
             </div>
             <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
               <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
@@ -138,15 +138,15 @@ export default function Home() {
 
               <div className="hidden md:block lg:flex items-center justify-between mb-8">
                 <div>
-                  <div className="w-72 h-2 bg-orange-500 opacity-10 rounded-lg absolute "></div>
+                  <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
 
-                  <div className="w-52 h-2 bg-orange-500 rounded-lg relative"></div>
+                  <div className="w-52 h-2 bg-red-500 rounded-lg relative"></div>
                 </div>
 
                 <p className="font-light text-gray-900 text-md">80%</p>
               </div>
 
-              <button className="w-full py-4 bg-info font-semibold text-orange-500 hover:text-white text-lg rounded-xl hover:bg-orange-500 transition ease-in-out duration-500">Donate</button>
+              <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
             </div>
             <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
               <img src="/image/donation-4.png" alt="Image" className="mb-6 hover:opacity-75 transition ease-in-out duration-500" />
@@ -163,24 +163,24 @@ export default function Home() {
 
               <div className="hidden md:block lg:flex items-center justify-between mb-8">
                 <div>
-                  <div className="w-72 h-2 bg-orange-500 opacity-10 rounded-lg absolute "></div>
+                  <div className="w-72 h-2 bg-red-500 opacity-10 rounded-lg absolute "></div>
 
-                  <div className="w-60 h-2 bg-orange-500 rounded-lg relative"></div>
+                  <div className="w-60 h-2 bg-red-500 rounded-lg relative"></div>
                 </div>
 
                 <p className="font-light text-gray-900 text-md">86%</p>
               </div>
 
-              <button className="w-full py-4 bg-info font-semibold text-orange-500 hover:text-white text-lg rounded-xl hover:bg-orange-500 transition ease-in-out duration-500">Donate</button>
+              <button className="w-full py-4 bg-info font-semibold text-red-500 hover:text-white text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">Donate</button>
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <button className="px-7 py-4 font-semibold bg-orange-500 text-white rounded-2xl hover:bg-range-300 hover:text-white transition ease-in-out duration-500">More Causes</button>
+            <button className="px-7 py-4 font-semibold bg-red-500 text-white rounded-2xl hover:bg-range-300 hover:text-white transition ease-in-out duration-500">More Causes</button>
           </div>
         </div>
       </section>
       {/* <!-- Donate --> */}
-      <section className="bg-white py-16">
+      <section className="bg-zinc-100 py-16">
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col lg:flex-row justify-between space-x-16">
             <div className="flex items-center justify-center">
@@ -250,13 +250,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Article
                       </a>
                     </p>
                     <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">Community Outreach Program</p>
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">Community Outreach Program</p>
                       <p className="mt-3 text-lg text-gray-500">
                         Our latest community outreach program provided essential supplies and support to over 500 families in need.
                       </p>
@@ -275,13 +275,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Video
                       </a>
                     </p>
                     <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">Volunteering at Local Shelter</p>
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">Volunteering at Local Shelter</p>
                       <p className="mt-3 text-lg text-gray-500">
                         Watch our volunteers in action as they provide care and support at the local shelter.
                       </p>
@@ -300,13 +300,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Case Study
                       </a>
                     </p>
                     <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">Charity Run Success Story</p>
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">Charity Run Success Story</p>
                       <p className="mt-3 text-lg text-gray-500">
                         Our annual charity run was a huge success, raising over $50,000 for local schools and educational programs.
                       </p>
@@ -321,7 +321,7 @@ export default function Home() {
       </section>
       {/* <!-- Contact --> */}
       <section>
-        <div className="bg-white px-6 py-12 sm:py-24 lg:px-8">
+        <div className="bg-zinc-100 px-6 py-12 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Contact Us</h1>
             <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you&apos;d like to be our critic! Here&apos;s a form just for that.</p>
@@ -360,14 +360,14 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-10">
-              <button type="submit" className="bg-orange-600 text-white rounded-sm py-2 text-base w-full block">Submit →</button>
+              <button type="submit" className="bg-red-500 hover:bg-red-600 text-white rounded-sm py-2 text-lg font-semibold w-full block">Submit →</button>
             </div>
           </form>
         </div>
       </section>
       {/* <!-- Partners --> */}
       <section>
-        <div className="bg-white w-full px-4 pt-16 pb-16" id="partners">
+        <div className="bg-white w-full px-4 pt-32 pb-32" id="partners">
           <h2 className="text-4xl font-bold text-center">Our Partners</h2>
           <p className="pt-6 pb-8 text-lg max-w-2xl text-center m-auto">
             We are proud to collaborate with these esteemed partners who share our passion for making a positive impact in the lives of those in need.

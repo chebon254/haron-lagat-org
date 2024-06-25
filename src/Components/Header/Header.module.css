@@ -27,8 +27,8 @@
   display: none;
   width: 40px;
   height: 40px;
-  border: 1px solid #ff6600;
-  color: #ff6600;
+  border: 1px solid #e03d3d;
+  color: #e03d3d;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -55,19 +55,20 @@
 }
 
 .menuItem a:hover {
-  color: #ff6600;
+  color: #e03d3d;
 }
 
 .donateButton a {
   padding: 10px 20px;
-  border: 2px solid #ff6600;
-  color: #ff6600;
+  border: 2px solid #e03d3d;
+  color: #e03d3d;
+  font-weight: 500;
   border-radius: 10px;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .donateButton a:hover {
-  background-color: #ff6600;
+  background-color: #e03d3d;
   color: white;
 }
 

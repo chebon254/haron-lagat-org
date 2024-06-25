@@ -29,7 +29,7 @@ const FAQ: React.FC = () => {
       answer: "We are committed to transparency and accountability. We publish our annual reports and financial statements on our website, and we are regularly audited by external agencies."
     }
   ];
-  
+
 
   return (
     <>
@@ -78,14 +78,11 @@ const FAQ: React.FC = () => {
                 <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt="" />
                 <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt="" />
                 <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" />
-                <span className="!ml-2 font-bold italic text-orange-500">Join these awesome members</span>
+                <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
-                <button type="button" className="text-md relative inline-flex items-center gap-x-2 rounded-lg bg-orange-600 px-6 py-4 font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">
-                  <span className="absolute -top-5 left-0 w-full text-left text-xs italic text-orange-600">No Obligations</span>Join Now
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="-mr-0.5 h-5 w-5">
-                    <path fillRule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clipRule="evenodd"></path>
-                  </svg>
+                <button type="button" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">
+                  Join Now
                 </button>
               </div>
             </div>
