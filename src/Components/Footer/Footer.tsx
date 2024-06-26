@@ -27,11 +27,15 @@ const Footer = () => {
           </div>
           <p>Making a difference in the lives of those in need through compassion and dedicated support.</p>
           <div className={styles.socialMedia}>
-            <Link href="https://web.facebook.com"><i className="fa-brands text-xl fa-facebook"></i></Link>
-            <Link href="https://x.com/home">
-              <Image src="/image/x-twitter.svg" alt="" width={18} height={18}/>
+            <Link href="https://web.facebook.com">
+              <Image src="/image/facebook.svg" alt="Social Media Icons" width={18} height={18}/>
             </Link>
-            <Link href="www.instagram.com"><i className="fa-brands text-xl fa-instagram"></i></Link>
+            <Link href="https://x.com/home">
+              <Image src="/image/x-twitter.svg" alt="Social Media Icons" width={18} height={18}/>
+            </Link>
+            <Link href="www.instagram.com">
+              <Image src="/image/instagram.svg" alt="Social Media Icons" width={18} height={18}/>
+            </Link>
           </div>
         </div>
         <div className={styles.links}>
