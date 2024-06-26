@@ -22,7 +22,7 @@ export default function Home() {
                 better future. Join us in our endeavor to make education
                 accessible to all.
               </p>
-              <button className="px-6 py-4 bg-orange-500 text-white font-semibold text-lg rounded-xl hover:bg-orange-700 transition ease-in-out duration-500">
+              <button className="px-6 py-4 bg-red-500 text-white font-semibold text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">
                 Get started
               </button>
             </div>
@@ -40,70 +40,75 @@ export default function Home() {
       <section className="bg-white ">
         <div className="flex flex-col items-center justify-center space-y-4">
           <h1 className="font-bold">HOW DO WE HELP?</h1>
-          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-            <SchoolIcon className="w-16 mt-8"/>
-            <div className="p-5">
-              <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Building and Renovating Schools</h5>
-              </a>
-              <p className="mb-3 font-normal text-gray-700">We aim to construct new schools and renovate existing ones in underserved areas to provide safe and conducive learning environments.</p>
-              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                Read more
-                <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+              <SchoolIcon className="w-16 mt-8" />
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Building and Renovating Schools</h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700">We aim to construct new schools and renovate existing ones in underserved areas to provide safe and conducive learning environments.</p>
+                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
+                  Read more
+                  <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2" />
 
-              </a>
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-            <ScholarshipIcon className="w-16 mt-8"/>
-            <div className="p-5">
-              <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Scholarships and Sponsorships</h5>
-              </a>
-              <p className="mb-3 font-normal text-gray-700">We plan to offer scholarships and sponsorships to students from low-income families, ensuring that financial barriers do not hinder their educational journey.</p>
-              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                Read more
-                <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-              </a>
+            <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+              <ScholarshipIcon className="w-16 mt-8" />
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Scholarships and Sponsorships</h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700">We plan to offer scholarships and sponsorships to students from low-income families, ensuring that financial barriers do not hinder their educational journey.</p>
+                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
+                  Read more
+                  <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2" />
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-            <BookIcon className="w-16 mt-8"/>
-            <div className="p-5">
-              <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Supplying Educational Materials</h5>
-              </a>
-              <p className="mb-3 font-normal text-gray-700">Many students lack basic educational resources. We will supply textbooks, uniforms, and other essential materials to enhance the learning experience.</p>
-              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                Read more
-                <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-              </a>
+            <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+              <BookIcon className="w-16 mt-8" />
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Supplying Educational Materials</h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700">Many students lack basic educational resources. We will supply textbooks, uniforms, and other essential materials to enhance the learning experience.</p>
+                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
+                  Read more
+                  <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2" />
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-            <ComputerIcon className="w-16 mt-8"/>
-            <div className="p-5">
-              <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technology Integration</h5>
-              </a>
-              <p className="mb-3 font-normal text-gray-700">To prepare students for the future, we aim to integrate technology into classrooms by providing computers and internet access, and training students and teachers in digital literacy.</p>
-              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                Read more
-                <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-              </a>
+            <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+              <ComputerIcon className="w-16 mt-8" />
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Technology Integration</h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700">To prepare students for the future, we aim to integrate technology into classrooms by providing computers and internet access, and training students and teachers in digital literacy.</p>
+                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
+                  Read more
+                  <ArrowIcon className="rtl:rotate-180 w-3.5 h-3.5 ms-2" />
+                </a>
+              </div>
             </div>
           </div>
           {/* </div> <!-- container.// --> */}
         </div>
       </section>
-      <section>
-        <div className="m-8 font-medium ">
-          <h1>Reasons to trust our <span className="text-blue-700">commitment</span> and mission</h1>
-          <h3>Community engagement</h3>
-          <p>Involving local communities to drive grassroots initiatives and foster inclusive development</p>
-          <h1>Dedicated team</h1>
-          <p>Passionate professionals committed to making a real difference</p>
+      <section className="py-16">
+        <div className="container max-w-screen-xl mx-auto">
+          <div className="m-8 font-medium ">
+            <h1 className="text-3xl text-center capitalize font-bold tracking-tight text-gray-900 sm:text-4xl">Reasons to trust our <span className="text-red-500">commitment</span> & mission</h1>
+
+            <h3 className="mt-5 font-semibold text-2xl text-center capitalize">Community engagement</h3>
+            <p className="text-center">Involving local communities to drive grassroots initiatives and foster inclusive development</p>
+
+            <h1 className="mt-5 font-semibold text-2xl text-center capitalize">Dedicated team</h1>
+            <p className="text-center">Passionate professionals committed to making a real difference</p>
+          </div>
         </div>
       </section>
       {/* <!-- News --> */}
@@ -239,7 +244,7 @@ export default function Home() {
                     id="first-name"
                     autoComplete="given-name"
                     placeholder="Your First Name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
                   />
                 </div>
               </div>
@@ -258,7 +263,7 @@ export default function Home() {
                     id="last-name"
                     autoComplete="family-name"
                     placeholder="Your Last Name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
                   />
                 </div>
               </div>
@@ -277,7 +282,7 @@ export default function Home() {
                     id="email"
                     autoComplete="email"
                     placeholder="Your Email Address"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
                   />
                 </div>
               </div>
@@ -296,7 +301,7 @@ export default function Home() {
                     id="phone"
                     autoComplete="tel"
                     placeholder="Your Phone Number"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
                   />
                 </div>
               </div>
@@ -313,7 +318,7 @@ export default function Home() {
                     id="message"
                     rows={4}
                     placeholder="Share your thoughts..."
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
                   ></textarea>
                 </div>
               </div>
@@ -321,7 +326,7 @@ export default function Home() {
             <div className="mt-10">
               <button
                 type="submit"
-                className="bg-orange-600 text-white rounded-sm py-2 text-base w-full block"
+                className="bg-red-600 text-white rounded-sm py-2 text-base w-full block"
               >
                 Submit →
               </button>
