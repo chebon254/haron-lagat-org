@@ -55,7 +55,6 @@ export default function Home() {
             </div>
           </div>
 
-
           <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <ScholarshipIcon className="w-16 mt-8"/>
             <div className="p-5">
@@ -69,8 +68,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-
-
           <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <BookIcon className="w-16 mt-8"/>
             <div className="p-5">
@@ -84,8 +81,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-
-
           <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <ComputerIcon className="w-16 mt-8"/>
             <div className="p-5">
@@ -138,8 +133,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Article
                       </a>
                     </p>
@@ -166,8 +161,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Video
                       </a>
                     </p>
@@ -194,8 +189,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
+                    <p className="text-base font-semibold text-red-600">
+                      <a href="#" className="">
                         Case Study
                       </a>
                     </p>
@@ -217,7 +212,7 @@ export default function Home() {
       </section>
       {/* <!-- Contact --> */}
       <section>
-        <div className="bg-white px-6 py-12 sm:py-24 lg:px-8">
+        <div className="bg-zinc-100 px-6 py-12 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
               Contact Us
@@ -336,7 +331,7 @@ export default function Home() {
       </section>
       {/* <!-- Partners --> */}
       <section>
-        <div className="bg-white w-full px-4 pt-16 pb-16" id="partners">
+        <div className="bg-white w-full px-4 pt-32 pb-32" id="partners">
           <h2 className="text-4xl font-bold text-center">Our Partners</h2>
           <p className="pt-6 pb-8 text-lg max-w-2xl text-center m-auto">
             We are proud to collaborate with these esteemed partners who share

@@ -1,8 +1,8 @@
 /* components/Footer.module.css */
 .footer {
-    background-color: #143754;
+    background-color: #101840;
     color: #fff;
-    padding: 40px 20px;
+    padding: 80px 20px;
     text-align: left;
   }
   
@@ -60,12 +60,12 @@
   }
   
   .links ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
   }
   
   .links ul li a:hover {
-    color: #fc9436; 
+    color: #b9b9b9; 
   }
   
   .copyRight {
