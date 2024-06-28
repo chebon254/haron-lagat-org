@@ -1,67 +1,106 @@
+"use client";
+
+import { useRouter } from 'next/navigation';
+import React from 'react';
+
 function newsUpdates() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/contact-us');
+  };
   return (
     <>
       <section className="bg-white">
-        <div className="container px-6 pt-12 pb-2 mx-auto">
+        <div className="container px-6 pt-12 pb-2 max-w-6xl mx-auto">
           <div className="text-center mb-8 mt-16">
             <p className="font-medium text-red-500">Articles</p>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">News & Updates</h1>
             <p className="mt-3 text-lg text-gray-600">Stay informed about our latest efforts and accomplishments in supporting those in need.</p>
           </div>
-        </div>
-      </section>
-      <section className="bg-white mb-16">
-        <div className="container px-6 py-4 mx-auto">
-          <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
-            <div>
-              <div className="relative">
-                <img className="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-                <div className="absolute bottom-0 flex p-3 bg-white">
-                  <img className="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-                  <div className="mx-4">
-                    <h1 className="text-sm text-gray-700">Tom Hank</h1>
-                    <p className="text-base text-gray-500">Creative Director</p>
-                  </div>
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img
+                  className="h-48 w-full object-cover"
+                  src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                  alt="Charity Event"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-base font-semibold text-red-600">
+                    <a href="#" className="">
+                      Article
+                    </a>
+                  </p>
+                  <a href="#" className="mt-2 block">
+                    <p className="text-xl font-bold text-gray-900 hover:text-red-500">
+                      Community Outreach Program
+                    </p>
+                    <p className="mt-3 text-lg text-gray-500">
+                      Our latest community outreach program provided essential
+                      supplies and support to over 500 families in need.
+                    </p>
+                  </a>
                 </div>
               </div>
-              <h1 className="mt-6 text-xl font-bold text-gray-800">Impact of Our Educational Programs</h1>
-              <hr className="w-32 my-6 text-red-500" />
-              <p className="text-base text-gray-500">Discover how our educational initiatives are empowering communities and creating opportunities for a brighter future.</p>
-              <a href="#" className="inline-block mt-4 text-red-500 underline hover:text-red-400 font-semibold">Read more</a>
             </div>
 
-            <div>
-              <div className="relative">
-                <img className="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-                <div className="absolute bottom-0 flex p-3 bg-white">
-                  <img className="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
-                  <div className="mx-4">
-                    <h1 className="text-sm text-gray-700">Arthur Melo</h1>
-                    <p className="text-base text-gray-500">Community Outreach Coordinator</p>
-                  </div>
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img
+                  className="h-48 w-full object-cover"
+                  src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                  alt="Volunteer Work"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-base font-semibold text-red-600">
+                    <a href="#" className="">
+                      Video
+                    </a>
+                  </p>
+                  <a href="#" className="mt-2 block">
+                    <p className="text-xl font-bold text-gray-900 hover:text-red-500">
+                      Volunteering at Local Shelter
+                    </p>
+                    <p className="mt-3 text-lg text-gray-500">
+                      Watch our volunteers in action as they provide care and
+                      support at the local shelter.
+                    </p>
+                  </a>
                 </div>
               </div>
-              <h1 className="mt-6 text-xl font-bold text-gray-800">Healthcare Initiatives in Rural Areas</h1>
-              <hr className="w-32 my-6 text-red-500" />
-              <p className="text-base text-gray-500">Learn about our efforts to provide essential healthcare services to underserved communities.</p>
-              <a href="#" className="inline-block mt-4 text-red-500 underline hover:text-red-400 font-semibold">Read more</a>
             </div>
 
-            <div>
-              <div className="relative">
-                <img className="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="" />
-                <div className="absolute bottom-0 flex p-3 bg-white">
-                  <img className="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
-                  <div className="mx-4">
-                    <h1 className="text-sm text-gray-700">Amelia Anderson</h1>
-                    <p className="text-base text-gray-500">Lead Developer</p>
-                  </div>
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img
+                  className="h-48 w-full object-cover"
+                  src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                  alt="Charity Run"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-base font-semibold text-red-600">
+                    <a href="#" className="">
+                      Case Study
+                    </a>
+                  </p>
+                  <a href="#" className="mt-2 block">
+                    <p className="text-xl font-bold text-gray-900 hover:text-red-500">
+                      Charity Run Success Story
+                    </p>
+                    <p className="mt-3 text-lg text-gray-500">
+                      Our annual charity run was a huge success, raising over
+                      $50,000 for local schools and educational programs.
+                    </p>
+                  </a>
                 </div>
               </div>
-              <h1 className="mt-6 text-xl font-bold text-gray-800">Volunteer Stories: Making a Difference</h1>
-              <hr className="w-32 my-6 text-red-500" />
-              <p className="text-base text-gray-500">Read inspiring stories from our volunteers who are making a significant impact through their dedication and hard work.</p>
-              <a href="#" className="inline-block mt-4 text-red-500 underline hover:text-red-400 font-semibold">Read more</a>
             </div>
           </div>
         </div>
@@ -80,7 +119,11 @@ function newsUpdates() {
                 <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
-                <button type="button" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">
+                <button
+                  type="button"
+                  className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600"
+                  onClick={handleClick}
+                >
                   Join Now
                 </button>
               </div>

@@ -1,6 +1,14 @@
-import React from 'react'
+"use client";
+
+import { useRouter } from 'next/navigation';
+import React from 'react';
 
 function aboutPage() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/contact-us');
+  };
   return (
     <>
       <section>
@@ -30,7 +38,7 @@ function aboutPage() {
           </div>
         </div>
       </section>
-      
+
       <section className="bg-gray-100">
         <div className="container max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -48,7 +56,7 @@ function aboutPage() {
           </div>
         </div>
       </section>
-      
+
       <section className="bg-gray-100">
         <div className="container mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -66,7 +74,7 @@ function aboutPage() {
           </div>
         </div>
       </section>
-      
+
       <section>
         <div className="bg-white">
           <div className="mx-auto py-16 sm:px-6 lg:px-8">
@@ -74,14 +82,18 @@ function aboutPage() {
               <h2 className="font-nudge-extrabold mx-auto max-w-2xl text-3xl font-bold uppercase tracking-wide sm:text-4xl">Join our Community Now</h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">Be a part of our community and help us bring hope and support to those in need. Your involvement makes a difference.</p>
               <div className="isolate mt-8 flex items-center justify-center -space-x-2 overflow-hidden">
-                <img className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/34.jpg" alt=""/>
-                <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt=""/>
-                <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt=""/>
-                <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt=""/>
+                <img className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/34.jpg" alt="" />
+                <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt="" />
+                <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt="" />
+                <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" />
                 <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
-                <button type="button" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">
+                <button
+                  type="button"
+                  className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600"
+                  onClick={handleClick}
+                >
                   Join Now
                 </button>
               </div>

@@ -1,6 +1,14 @@
-import React from "react"
+"use client";
+
+import { useRouter } from 'next/navigation';
+import React from 'react';
 
 function our_story() {
+    const router = useRouter();
+
+    const handleClick = () => {
+        router.push('/contact-us');
+    };
     return (
         <>
             <section id="our-team" className="bg-gray-100 py-32">
@@ -52,7 +60,11 @@ function our_story() {
                                 <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
                             </div>
                             <div className="mt-12 flex items-center justify-center gap-x-6">
-                                <button type="button" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">
+                                <button
+                                    type="button"
+                                    className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600"
+                                    onClick={handleClick}
+                                >
                                     Join Now
                                 </button>
                             </div>

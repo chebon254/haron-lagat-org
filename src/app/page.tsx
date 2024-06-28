@@ -1,3 +1,6 @@
+"use client";
+
+import router, { useRouter } from "next/router";
 import ArrowIcon from "@/Components/Arrow";
 import BookIcon from "@/Components/Book";
 import ComputerIcon from "@/Components/Computer";
@@ -6,6 +9,9 @@ import SchoolIcon from "@/Components/School";
 import Link from "next/link";
 
 export default function Home() {
+  const handleArticleClick = (title: string) => {
+    router.push(`/news-and-updates/${encodeURIComponent(title)}`);
+  };
   return (
     <>
       <section className="bg-white m-8 py-10 md:mb-10">
@@ -21,10 +27,10 @@ export default function Home() {
                 children and young adults in Kenya, empowering them to build a
                 better future. Join us in our endeavor to make education
                 accessible to all.
-              </p>
-              <button className="px-6 py-4 bg-red-500 text-white font-semibold text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">
+              </p>  
+              <Link href="/contact-us" className="px-6 py-4 bg-red-500 text-white font-semibold text-lg rounded-xl hover:bg-red-500 transition ease-in-out duration-500">
                 Get started
-              </button>
+              </Link>
             </div>
             <div className="hidden">
               <img
@@ -111,13 +117,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <!-- News --> */}
       <section>
         <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
           <div className="absolute inset-0">
             <div className="h-1/3 bg-white sm:h-2/3"></div>
           </div>
-          <div className="relative mx-auto max-w-7xl">
+          <div className="relative mx-auto max-w-6xl">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 News & Updates
@@ -128,90 +133,43 @@ export default function Home() {
               </p>
             </div>
             <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+            {[
+              {
+                title: "Community Outreach Program",
+                content: "Our latest community outreach program provided essential supplies and support to over 500 families in need.",
+                img: "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+              },
+              {
+                title: "Volunteering at Local Shelter",
+                content: "Watch our volunteers in action as they provide care and support at the local shelter.",
+                img: "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+              },
+              {
+                title: "Charity Run Success Story",
+                content: "Our annual charity run was a huge success, raising over $50,000 for local schools and educational programs.",
+                img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+              }
+            ].map((article, index) => (
+              <div key={index} className="flex flex-col overflow-hidden rounded-lg shadow-lg">
                 <div className="flex-shrink-0">
-                  <img
-                    className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt="Charity Event"
-                  />
+                  <img className="h-48 w-full object-cover" src={article.img} alt={article.title} />
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
                     <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
+                      <a href="" onClick={() => handleArticleClick(article.title)}>
                         Article
                       </a>
                     </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
-                        Community Outreach Program
-                      </p>
-                      <p className="mt-3 text-lg text-gray-500">
-                        Our latest community outreach program provided essential
-                        supplies and support to over 500 families in need.
-                      </p>
+                    <a href="" onClick={() => handleArticleClick(article.title)} className="mt-2 block">
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">{article.title}</p>
+                      <p className="mt-3 text-lg text-gray-500">{article.content}</p>
                     </a>
                   </div>
                 </div>
               </div>
-
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                <div className="flex-shrink-0">
-                  <img
-                    className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt="Volunteer Work"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                  <div className="flex-1">
-                    <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
-                        Video
-                      </a>
-                    </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
-                        Volunteering at Local Shelter
-                      </p>
-                      <p className="mt-3 text-lg text-gray-500">
-                        Watch our volunteers in action as they provide care and
-                        support at the local shelter.
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                <div className="flex-shrink-0">
-                  <img
-                    className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt="Charity Run"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                  <div className="flex-1">
-                    <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
-                        Case Study
-                      </a>
-                    </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
-                        Charity Run Success Story
-                      </p>
-                      <p className="mt-3 text-lg text-gray-500">
-                        Our annual charity run was a huge success, raising over
-                        $50,000 for local schools and educational programs.
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
+          </div>
           </div>
         </div>
       </section>
