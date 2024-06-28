@@ -21,7 +21,7 @@ function VolunteeringAtLocalShelter() {
                         </p>
 
                         <p className="py-6">
-                            At the heart of our volunteer efforts is compassion and commitment to serving the community. Whether it's providing meals, organizing activities, or offering emotional support, our volunteers make a profound difference in the lives of shelter residents.
+                            At the heart of our volunteer efforts is compassion and commitment to serving the community. Whether it&apos;s providing meals, organizing activities, or offering emotional support, our volunteers make a profound difference in the lives of shelter residents.
                         </p>
 
                         <p className="py-6">
@@ -38,7 +38,7 @@ function VolunteeringAtLocalShelter() {
                         </ol>
 
                         <blockquote className="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">
-                            "The best way to find yourself is to lose yourself in the service of others."
+                        &quot;The best way to find yourself is to lose yourself in the service of others.&quot;
                             <br /> - Mahatma Gandhi
                         </blockquote>
                     </div>

@@ -20,28 +20,6 @@ function CommunityOutreachProgram() {
                             Our latest community outreach program provided essential supplies and support to over 500 families in need. The program aimed to alleviate the challenges faced by vulnerable families by distributing food, hygiene products, and educational materials.
                         </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <p className="py-6">
                             In collaboration with local businesses and volunteers, we successfully reached out to neighborhoods most affected by economic hardship. Families expressed deep gratitude for the assistance, emphasizing how it has positively impacted their daily lives.
                         </p>
@@ -63,7 +41,7 @@ function CommunityOutreachProgram() {
                         </ol>
 
                         <blockquote className="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">
-                            "Alone, we can do so little; together, we can do so much."
+                        &quot;Alone, we can do so little; together, we can do so much.&quot;
                             <br /> - Helen Keller
                         </blockquote>
                     </div>

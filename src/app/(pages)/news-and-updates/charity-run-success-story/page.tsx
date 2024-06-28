@@ -38,7 +38,7 @@ function CharityRunSuccessStory() {
                         </ol>
 
                         <blockquote className="border-l-4 border-red-500 italic my-8 pl-8 md:pl-12">
-                            "Education is the most powerful weapon which you can use to change the world."
+                        &quot;Education is the most powerful weapon which you can use to change the world.&quot;
                             <br /> - Nelson Mandela
                         </blockquote>
                     </div>
