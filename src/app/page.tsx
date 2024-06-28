@@ -169,19 +169,14 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    src="/image/donation-1.jpg"
                     alt="Charity Event"
                   />
                 </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex flex-1 flex-col justify-between bg-white p-3">
                   <div className="flex-1">
-                    <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
-                        Article
-                      </a>
-                    </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
+                    <a href="news-and-updates/community-outreach-program" className="mt-2 block">
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">
                         Community Outreach Program
                       </p>
                       <p className="mt-3 text-lg text-gray-500">
@@ -197,19 +192,14 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    src="/image/donation-2.jpg"
                     alt="Volunteer Work"
                   />
                 </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex flex-1 flex-col justify-between bg-white p-3">
                   <div className="flex-1">
-                    <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
-                        Video
-                      </a>
-                    </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
+                    <a href="news-and-updates/volunteering-at-local-shelter" className="mt-2 block">
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">
                         Volunteering at Local Shelter
                       </p>
                       <p className="mt-3 text-lg text-gray-500">
@@ -225,19 +215,14 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    src="/image/donation-6.png"
                     alt="Charity Run"
                   />
                 </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex flex-1 flex-col justify-between bg-white p-3">
                   <div className="flex-1">
-                    <p className="text-base font-semibold text-red-600">
-                      <a href="#" className="">
-                        Case Study
-                      </a>
-                    </p>
-                    <a href="#" className="mt-2 block">
-                      <p className="text-xl font-bold text-gray-900">
+                    <a href="news-and-updates/charity-run-success-story" className="mt-2 block">
+                      <p className="text-xl font-bold text-gray-900 hover:text-red-500">
                         Charity Run Success Story
                       </p>
                       <p className="mt-3 text-lg text-gray-500">
