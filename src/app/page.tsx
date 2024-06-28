@@ -226,8 +226,9 @@ export default function Home() {
               critic! Here&apos;s a form just for that.
             </p>
           </div>
-          <form className="mx-auto mt-16 max-w-3xl sm:mt-20">
+          <form className="mx-auto mt-16 max-w-3xl sm:mt-20" action="https://api.web3forms.com/submit" method="POST">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <input type="hidden" name="access_key" value="50067f1d-2178-467e-a368-cdf5e9241c6f" />
               <div>
                 <label
                   htmlFor="first-name"
