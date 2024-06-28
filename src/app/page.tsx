@@ -1,3 +1,8 @@
+"use client";
+
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import useWeb3Forms from "@web3forms/react";
 import ArrowIcon from "@/Components/Arrow";
 import BookIcon from "@/Components/Book";
 import ComputerIcon from "@/Components/Computer";
@@ -6,6 +11,39 @@ import SchoolIcon from "@/Components/School";
 import Link from "next/link";
 
 export default function Home() {
+  const { register, reset, handleSubmit, formState: { errors } } = useForm();
+
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [result, setResult] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+
+  const accessKey = "50067f1d-2178-467e-a368-cdf5e9241c6f";
+
+  const { submit: onSubmit } = useWeb3Forms({
+    access_key: accessKey,
+    settings: {
+      from_name: "HaronLagat Website",
+      subject: "New Contact Message",
+    },
+    onSuccess: (msg, data) => {
+      setIsSuccess(true);
+      setResult(msg);
+      setIsLoading(false);
+      reset();
+    },
+    onError: (msg, data) => {
+      setIsSuccess(false);
+      setResult(msg);
+      setIsLoading(false);
+    },
+  });
+
+  const handleSubmitWithLoading = async (data: any) => {
+    setIsLoading(true);
+    await handleSubmit(onSubmit)(data);
+  };
+
   return (
     <>
       <section className="bg-white m-8 py-10 md:mb-10">
@@ -226,112 +264,91 @@ export default function Home() {
               critic! Here&apos;s a form just for that.
             </p>
           </div>
-          <form className="mx-auto mt-16 max-w-3xl sm:mt-20" action="https://api.web3forms.com/submit" method="POST">
+          <form className="mx-auto mt-16 max-w-3xl sm:mt-20" onSubmit={handleSubmitWithLoading}>
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-            <input type="hidden" name="access_key" value="50067f1d-2178-467e-a368-cdf5e9241c6f" />
+              <input type="hidden" name="access_key" value={accessKey} />
               <div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-base font-semibold leading-6 text-gray-900"
-                >
-                  First name
-                </label>
+                <label htmlFor="first-name" className="block text-base font-semibold leading-6 text-gray-900">First name</label>
                 <div className="mt-2.5">
                   <input
-                    required
                     type="text"
-                    name="first-name"
                     id="first-name"
                     autoComplete="given-name"
                     placeholder="Your First Name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
+                    {...register("firstName", { required: "First name is required" })}
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
                   />
+                  {errors.firstName && <p className="text-red-500">{(errors.firstName as any).message}</p>}
                 </div>
               </div>
               <div>
-                <label
-                  htmlFor="last-name"
-                  className="block text-base font-semibold leading-6 text-gray-900"
-                >
-                  Last name
-                </label>
+                <label htmlFor="last-name" className="block text-base font-semibold leading-6 text-gray-900">Last name</label>
                 <div className="mt-2.5">
                   <input
-                    required
                     type="text"
-                    name="last-name"
                     id="last-name"
                     autoComplete="family-name"
                     placeholder="Your Last Name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
+                    {...register("lastName", { required: "Last name is required" })}
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
                   />
+                  {errors.lastName && <p className="text-red-500">{(errors.lastName as any).message}</p>}
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label
-                  htmlFor="email"
-                  className="block text-base font-semibold leading-6 text-gray-900"
-                >
-                  Email
-                </label>
+                <label htmlFor="email" className="block text-base font-semibold leading-6 text-gray-900">Email</label>
                 <div className="mt-2.5">
                   <input
-                    required
                     type="email"
-                    name="email"
                     id="email"
                     autoComplete="email"
                     placeholder="Your Email Address"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
+                    {...register("email", { required: "Email is required" })}
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
                   />
+                  {errors.email && <p className="text-red-500">{(errors.email as any).message}</p>}
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label
-                  htmlFor="phone"
-                  className="block text-base font-semibold leading-6 text-gray-900"
-                >
-                  Phone number
-                </label>
+                <label htmlFor="phone" className="block text-base font-semibold leading-6 text-gray-900">Phone number</label>
                 <div className="mt-2.5">
                   <input
-                    required
                     type="tel"
-                    name="phone"
                     id="phone"
                     autoComplete="tel"
                     placeholder="Your Phone Number"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
+                    {...register("phone", { required: "Phone number is required" })}
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
                   />
+                  {errors.phone && <p className="text-red-500">{(errors.phone as any).message}</p>}
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label
-                  htmlFor="message"
-                  className="block text-base font-semibold leading-6 text-gray-900"
-                >
-                  Message
-                </label>
+                <label htmlFor="message" className="block text-base font-semibold leading-6 text-gray-900">Message</label>
                 <div className="mt-2.5">
                   <textarea
-                    name="message"
                     id="message"
                     rows={4}
                     placeholder="Share your thoughts..."
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-base sm:leading-6"
+                    {...register("message", { required: "Message is required" })}
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-base sm:leading-6"
                   ></textarea>
+                  {errors.message && <p className="text-red-500">{(errors.message as any).message}</p>}
                 </div>
               </div>
             </div>
             <div className="mt-10">
               <button
                 type="submit"
-                className="bg-red-600 text-white rounded-sm py-2 text-base w-full block"
+                className={`bg-red-500 hover:bg-red-600 text-white rounded-sm py-2 text-lg font-medium w-full block ${isLoading ? "opacity-50 cursor-not-allowed" : ""}`}
+                disabled={isLoading}
               >
-                Submit →
+                {isLoading ? "Sending..." : "Submit →"}
               </button>
             </div>
+
           </form>
+          {result && <div className="mt-4 text-center text-green-500 text-lg font-medium py-2 px-16 bg-green-100 mx-auto max-w-3xl rounded-md">{result}</div>}
         </div>
       </section>
       {/* <!-- Partners --> */}
