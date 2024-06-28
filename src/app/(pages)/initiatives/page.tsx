@@ -43,7 +43,7 @@ function programServices() {
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Scholarships and Sponsorships</h2>
-              <p className="mt-4 text-gray-600 text-base"><strong>Objective:</strong> To ensure financial barriers do not hinder students' educational journeys.</p>
+              <p className="mt-4 text-gray-600 text-base"><strong>Objective:</strong> To ensure financial barriers do not hinder students&apos; educational journeys.</p>
               <p className="mt-4 text-gray-600 text-base"><strong>Details:</strong></p>
               <ul className="list-disc pl-5 text-base text-gray-600">
                 <li className="py-1">Offering scholarships to students from low-income families.</li>

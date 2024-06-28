@@ -89,7 +89,7 @@ function ContactUs() {
       <section>
         <div className="bg-white px-6 py-12 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
-            <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you'd like to be our critic! Here's a form just for that.</p>
+            <p className="mt-3 text-lg text-gray-600">Feature request? Suggestion? or maybe you&apos;d like to be our critic! Here&apos;s a form just for that.</p>
           </div>
           <form className="mx-auto mt-16 max-w-3xl sm:mt-20" onSubmit={handleSubmitWithLoading}>
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
