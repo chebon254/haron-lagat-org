@@ -47,14 +47,6 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3>Get Involved</h3>
-            <ul>
-              <li><Link href="/volunteer">Volunteer</Link></li>
-              <li><Link href="/donate">Donate</Link></li>
-              <li><Link href="/fundraise">Fundraise</Link></li>
-            </ul>
-          </div>
-          <div>
             <h3>Resources</h3>
             <ul>
               <li><Link href="/news-and-updates">News</Link></li>
