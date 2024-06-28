@@ -78,10 +78,18 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .nav-button{
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .logoAndMenu {
     width: 100%;
     justify-content: space-between;
+  }
+  .nav-button{
+    display: block;
   }
 
   .menuButton {
