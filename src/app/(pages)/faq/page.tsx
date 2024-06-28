@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useRef } from 'react';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 const FAQ: React.FC = () => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
@@ -30,12 +30,6 @@ const FAQ: React.FC = () => {
       answer: "We are committed to transparency and accountability. We publish our annual reports and financial statements on our website, and we are regularly audited by external agencies."
     }
   ];
-
-  const router = useRouter();
-
-  const handleClick = () => {
-    router.push('/contact-us');
-  };
 
   return (
     <>
@@ -87,13 +81,9 @@ const FAQ: React.FC = () => {
                 <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
-                <button
-                  type="button"
-                  className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600"
-                  onClick={handleClick}
-                >
+                <Link href="/contact-us" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">
                   Join Now
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -102,20 +92,5 @@ const FAQ: React.FC = () => {
     </>
   );
 };
-
-const faqData = [
-  {
-    question: "How secure is my insurance information?",
-    answer: "We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential."
-  },
-  {
-    question: "How can I customize my insurance coverage?",
-    answer: "Our insurance plans are customizable. You can tailor your coverage to meet your specific needs and budget."
-  },
-  {
-    question: "Is there a waiting period for insurance claims?",
-    answer: "There may be a waiting period for certain insurance claims, depending on the policy terms and conditions. Please refer to your policy documents for details."
-  }
-];
 
 export default FAQ;

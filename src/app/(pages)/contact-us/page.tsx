@@ -12,9 +12,10 @@ function ContactUs() {
   const [isLoading, setIsLoading] = useState(false);
 
 
-  const accessKey = "50067f1d-2178-467e-a368-cdf5e9241c6f";
+  const accessKey = process.env.NEXT_PUBLIC_ACCESS_KEY as string;
 
   const { submit: onSubmit } = useWeb3Forms({
+    // access_key: accessKey,
     access_key: accessKey,
     settings: {
       from_name: "HaronLagat Website",
