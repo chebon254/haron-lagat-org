@@ -20,14 +20,7 @@ const Header = () => {
             <Link href="/">
               <Image src={Logo} alt="Logo" width={180} height={60} />
             </Link>
-            <button
-              onClick={handleNav}
-              data-collapse-toggle="navbar-default"
-              type="button"
-              className="nav-button inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-              aria-controls="navbar-default"
-              aria-expanded="false"
-            >
+            <button onClick={handleNav} className={styles.menuButton}>
               <span className="sr-only">Open main menu</span>
               <svg
                 className="w-6 h-6"
