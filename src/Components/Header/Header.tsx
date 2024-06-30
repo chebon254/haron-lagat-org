@@ -46,7 +46,7 @@ const Header = () => {
               <Link href="/contact-us">Contact us</Link>
             </div>
             <div className={styles.donateButton}>
-              <Link href="/contact-us">Donate</Link>
+              <Link href="/contact-us ">Donate</Link>
             </div>
           </div>
         </nav>
@@ -55,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 

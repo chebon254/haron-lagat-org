@@ -10,7 +10,7 @@ function CharityRunSuccessStory() {
             </div>
 
             {/* Image */}
-            <div className="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" style={{ backgroundImage: "url('/image/donation-6.png')", height: '75vh' }}></div>
+            <div className="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" style={{ backgroundImage: "url('/image/Haron/school.jpeg')", height: '75vh' }}></div>
 
             {/* Content */}
             <div className="container max-w-5xl mx-auto -mt-32">

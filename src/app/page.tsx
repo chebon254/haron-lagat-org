@@ -48,7 +48,7 @@ export default function Home() {
     <>
       <section className="bg-white m-8 py-10 md:mb-10">
         <div className="container max-w-screen-xl mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between space-y-4">
+          <div className="space-y-4">
             <div className="flex flex-col justify-center items-center space-y-8 lg:text-left lg:mt-0 lg:w-50">
               <h1 className="font-black text-gray-900 text-3xl md:text-6xl leading-normal">
                 Education for Every Child
@@ -64,11 +64,11 @@ export default function Home() {
                 Get started
               </Link>
             </div>
-            <div className="hidden">
+            <div className="">
               <img
-                src="/charity.jpg"
+                src="/image/Haron/cover.jpeg"
                 alt="Image"
-                className="rounded-2xl w-75"
+                className="rounded-2xl w-3/4 mx-auto"
               />
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="/image/donation-1.jpg"
+                    src="/image/Haron/elder group.jpeg"
                     alt="Charity Event"
                   />
                 </div>
@@ -192,7 +192,7 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="/image/donation-2.jpg"
+                    src="/image/Haron/event.jpeg"
                     alt="Volunteer Work"
                   />
                 </div>
@@ -215,7 +215,7 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <img
                     className="h-48 w-full object-cover"
-                    src="/image/donation-6.png"
+                    src="/image/Haron/school.jpeg"
                     alt="Charity Run"
                   />
                 </div>

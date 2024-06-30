@@ -43,34 +43,6 @@ function team() {
               <h3 className="text-xl font-semibold mb-2">Peter Johnson</h3>
               <p className="text-gray-700">Fundraising Coordinator</p>
             </div>
-
-            {/* Team Member 5 */}
-            <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-              <img src="https://spacema-dev.com/elevate/assets/images/team/5.jpg" alt="Team Member 5" className="w-full rounded-full mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Emily Brown</h3>
-              <p className="text-gray-700">Volunteer Coordinator</p>
-            </div>
-
-            {/* Team Member 6 */}
-            <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-              <img src="https://spacema-dev.com/elevate/assets/images/team/6.jpg" alt="Team Member 6" className="w-full rounded-full mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Michael Davis</h3>
-              <p className="text-gray-700">Community Outreach Specialist</p>
-            </div>
-
-            {/* Team Member 7 */}
-            <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-              <img src="https://spacema-dev.com/elevate/assets/images/team/7.jpg" alt="Team Member 7" className="w-full rounded-full mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Sarah Johnson</h3>
-              <p className="text-gray-700">Grant Writer</p>
-            </div>
-
-            {/* Team Member 8 */}
-            <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-              <img src="https://spacema-dev.com/elevate/assets/images/team/8.jpg" alt="Team Member 8" className="w-full rounded-full mb-4" />
-              <h3 className="text-xl font-semibold mb-2">David Wilson</h3>
-              <p className="text-gray-700">Finance Manager</p>
-            </div>
           </div>
         </div>
       </section>
@@ -82,10 +54,6 @@ function team() {
               <h2 className="font-nudge-extrabold mx-auto max-w-2xl text-3xl font-bold uppercase tracking-wide sm:text-4xl">Join our Community Now</h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">Be a part of our community and help us bring hope and support to those in need. Your involvement makes a difference.</p>
               <div className="isolate mt-8 flex items-center justify-center -space-x-2 overflow-hidden">
-                <img className="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/34.jpg" alt="" />
-                <img className="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/2.jpg" alt="" />
-                <img className="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/women/3.jpg" alt="" />
-                <img className="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" />
                 <span className="!ml-2 font-bold italic text-red-500">Join these awesome members</span>
               </div>
               <div className="mt-12 flex items-center justify-center gap-x-6">
