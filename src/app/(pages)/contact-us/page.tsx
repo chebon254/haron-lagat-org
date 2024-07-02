@@ -58,7 +58,7 @@ function ContactUs() {
               </span>
               <h2 className="mt-4 text-lg font-medium text-gray-800">Email</h2>
               <p className="mt-2 text-gray-500 text-base">Our friendly team is here to help.</p>
-              <p className="mt-2 text-red-500">hello@merakiui.com</p>
+              <p className="mt-2 text-red-500">Info@haronlagat.com</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <span className="p-3 text-red-500 rounded-full bg-red-100/80">
@@ -69,7 +69,7 @@ function ContactUs() {
               </span>
               <h2 className="mt-4 text-lg font-medium text-gray-800">Office</h2>
               <p className="mt-2 text-gray-500 text-base">Come say hello at our office HQ.</p>
-              <p className="mt-2 text-red-500">100 Smith Street Collingwood VIC 3066 AU</p>
+              <p className="mt-2 text-red-500">8346 Sprague Way COLORADO SPRINGS, CO 80908</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <span className="p-3 text-red-500 rounded-full bg-red-100/80">
@@ -79,7 +79,7 @@ function ContactUs() {
               </span>
               <h2 className="mt-4 text-lg font-medium text-gray-800">Phone</h2>
               <p className="mt-2 text-gray-500 text-base">Mon-Fri from 8am to 5pm.</p>
-              <p className="mt-2 text-red-500">+1 (555) 000-0000</p>
+              <p className="mt-2 text-red-500">+1 (806) 787-6905</p>
             </div>
           </div>
         </div>
