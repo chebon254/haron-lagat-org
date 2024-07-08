@@ -13,24 +13,36 @@ function projects() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/Haron/school.jpeg" alt="School Built" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
-                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Schools Built</h4>
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">We have successfully built over 50 schools in various communities across Kenya, providing quality education to over 20,000 children.</p>
+                            <img src="/Toilet.jpeg" alt="School Built" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Toilets Built</h4>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">We have successfully constructed modern toilets for schools, significantly improving the capacity to accommodate a large number of students while ensuring the maintenance of excellent hygiene and health standards.</p>
+                            <Link href="/projects/toilets-gallery" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">View Gallery</Link>
                         </div>
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/Haron/event.jpeg" alt="Food Donations" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
+                            <img src="/image/Haron/proposed-one.jpeg" alt="School Built" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Upcoming Fundraiser</h4>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">KAPTIONY Secondary School in Marakwet, a school that highly esteemed, plans are for 2025 mega fundraising event to build modern classrooms and a laboratory, enhancing educational resources for students.</p>
+                            <Link href="projects/proposed-plan" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">View Gallery</Link>
+                        </div>
+                        <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
+                            <img src="/image/Haron/event.jpeg" alt="School Built" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
+                            <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Christmass Celebration</h4>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">On Christmas Day, we provided meals, clothes, and necessities to families in need, ensuring they had essential support and joy during the holiday season.</p>
+                        </div>
+                        <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
+                            <img src="/image/Haron/school.jpeg" alt="Food Donations" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
                             <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Food Donations</h4>
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our food donation drives have distributed over 100,000 meals to families in need, ensuring that no child goes to bed hungry.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our food donation drives have distributed over 1000 meals to families, ensuring that no child goes to bed hungry.</p>
                         </div>
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/scholarship.jpg" alt="Scholarships" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
+                            <img src="/image/scholarship.jpg" alt="Scholarships" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
                             <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Scholarships</h4>
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">We have awarded over 500 scholarships to deserving students, helping them pursue higher education and achieve their dreams.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">We have awarded over scholarships to deserving students, helping them pursue higher education and achieve their dreams. Also connected some of them to schools in United States of America</p>
                         </div>
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
-                            <img src="/image/Haron/children running.jpeg" alt="Sports Programs" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full" />
+                            <img src="/image/Haron/children running.jpeg" alt="Sports Programs" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
                             <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Sports Programs</h4>
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">Our sports programs have engaged over 3,000 children, promoting physical health, teamwork, and leadership skills through various sporting activities.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">We have an upcoming sports tournament featuring volleyball matches, where teams will compete against each other, and the winner will be awarded a gifts.</p>
                         </div>
                     </div>
                 </div>

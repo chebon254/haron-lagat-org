@@ -1,29 +1,34 @@
 import React from 'react';
 import Link from 'next/link';
 
-function our_story() {
+function toiletGallery() {
     return (
         <>
-            <section id="our-team" className="bg-gray-100 py-32">
-                <div className="container max-w-7xl mx-auto px-4">
-                    <div className="text-center mb-8">
-                        <p className="font-medium text-red-500">Our Story</p>
-
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">What led to this</h1>
+            <section className="bg-white py-16">
+                <div className="container max-w-screen-xl mx-auto px-4">
+                    <div className="text-center mb-8 mt-16">
+                        <p className="font-medium text-red-500">Gallery</p>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900"></h1>
+                        <p className="mt-3 text-lg text-gray-600">Project images</p>
+                        
                     </div>
-                    <div>
-                        <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            At our core, we believe that every individual deserves the opportunity to flourish, regardless of how they process and learn. Sadly, this isn&quot;t the reality for many of the 70 million people in the United States—approximately 1 in 5—who face learning and thinking differences.
-                        </p>
-                        <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            Our journey began over 25 years ago
-                        </p>
-                        <p className="mt-3 text-lg text-gray-600 my-1 w-75 mx-auto mb-3">
-                            Welcome to Understood. We&quot;re delighted to have you join us on this meaningful journey.
-                        </p>
+                    <div className="columns-1 md:columns-2 xl:columns-3 gap-7 ">
+                        <div className=" break-inside-avoid mb-8">
+                            <img className="h-auto max-w-full rounded-lg" src="/image/toilet/one.jpeg" alt="Gallery image" />
+                        </div>
+                        <div className=" break-inside-avoid  mb-8">
+                            <img className="h-auto max-w-full rounded-lg" src="/image/toilet/two.jpeg" alt="Gallery image" />
+                        </div>
+                        <div className=" break-inside-avoid  mb-8">
+                            <img className="h-auto max-w-full rounded-lg" src="/image/toilet/three.jpeg" alt="Gallery image" />
+                        </div>
+                        <div className=" break-inside-avoid  mb-8">
+                            <img className="h-auto max-w-full rounded-lg" src="/image/toilet/four.jpeg" alt="Gallery image" />
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section>
                 <div className="bg-white">
                     <div className="mx-auto py-16 sm:px-6 lg:px-8">
@@ -41,9 +46,9 @@ function our_story() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }
 
-export default our_story
+export default toiletGallery

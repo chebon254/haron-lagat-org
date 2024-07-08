@@ -59,6 +59,7 @@ function ContactUs() {
               <h2 className="mt-4 text-lg font-medium text-gray-800">Email</h2>
               <p className="mt-2 text-gray-500 text-base">Our friendly team is here to help.</p>
               <p className="mt-2 text-red-500">Info@haronlagat.com</p>
+              <p className="mt-2 text-red-500">contact@chebonkelvin.com</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <span className="p-3 text-red-500 rounded-full bg-red-100/80">
@@ -68,8 +69,8 @@ function ContactUs() {
                 </svg>
               </span>
               <h2 className="mt-4 text-lg font-medium text-gray-800">Office</h2>
-              <p className="mt-2 text-gray-500 text-base">Come say hello at our office HQ.</p>
-              <p className="mt-2 text-red-500">8346 Sprague Way COLORADO SPRINGS, CO 80908</p>
+              <p className="mt-2 text-gray-500 text-base">Our HQ.</p>
+              <p className="mt-2 text-red-500">Kenya</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <span className="p-3 text-red-500 rounded-full bg-red-100/80">
