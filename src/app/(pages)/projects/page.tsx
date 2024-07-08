@@ -21,7 +21,7 @@ function projects() {
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
                             <img src="/image/Haron/proposed-one.jpeg" alt="School Built" className="mb-6 hover:opacity-75 transition ease-in-out duration-500 w-full h-[340px] rounded-md" />
                             <h4 className="font-bold text-gray-900 text-lg md:text-2xl mb-6">Upcoming Fundraiser</h4>
-                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">KAPTIONY Secondary School in Marakwet, a school that highly esteemed, plans are for 2025 mega fundraising event to build modern classrooms and a laboratory, enhancing educational resources for students.</p>
+                            <p className="font-light text-gray-800 text-sm md:text-md lg:text-lg mb-10">KAPTIONY Secondary School in Marakwet, a school that highly esteemed, plans are for 2025 mega fundraising event to build modern classrooms and a laboratory, enhancing educational resources for students. Also renovations and buying of books and printers.</p>
                             <Link href="projects/proposed-plan" className="w-[180px] text-center rounded-lg bg-red-500 px-6 py-4 font-semibold text-white shadow-sm hover:bg-red-600">View Gallery</Link>
                         </div>
                         <div className="px-6 py-6 w-full border-2 border-gray-200 rounded-3xl">
