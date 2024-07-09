@@ -70,7 +70,7 @@ function ContactUs() {
               </span>
               <h2 className="mt-4 text-lg font-medium text-gray-800">Office</h2>
               <p className="mt-2 text-gray-500 text-base">Our HQ.</p>
-              <p className="mt-2 text-red-500">Kenya</p>
+              <p className="mt-2 text-red-500">6228 dancing water Drive Colorado Springs, Colorado USA 80911</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <span className="p-3 text-red-500 rounded-full bg-red-100/80">
